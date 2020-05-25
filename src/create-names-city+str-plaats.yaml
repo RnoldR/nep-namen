@@ -1,0 +1,89 @@
+host: 'tinctoris'
+port: '5432'
+db: 'Binnenstad'
+destination: '../results/generated_places.txt'
+tables:
+- gemeente_2017
+- wijk_2017
+
+columns:
+- gemeentenaam
+- wijknaam
+
+user: ''
+pw: ''
+
+n: 300
+
+prefixes:
+- noord
+- zuid
+- oost
+- west
+- noorder
+- zuider
+- ooster
+- wester
+- hoog
+- laag
+- hoger
+- lager
+- olde
+- park
+- groote
+- lutje
+- twee
+- drie
+- vier
+- vijf
+- zes
+- zeven
+- acht
+- negen
+- tien
+- molen
+- van
+- binnen
+- kerk
+
+suffixes:
+- voort
+- foort
+- wolde
+- dam
+- stad
+- dorp
+- land
+- landen
+- wijk
+- dijk
+- aan zee
+- gebied
+- broek
+- hoven
+- kwartier
+- bert
+- haven
+- ingen
+- kerk
+- polder
+- lo
+- loo
+- schans
+- buurt
+- berg
+- burg
+- damme
+- stede
+- meer
+- veld
+- brug
+- stein
+- steijn
+- hem
+- heim
+- gestel
+- hout
+- centrum
+- veen
+

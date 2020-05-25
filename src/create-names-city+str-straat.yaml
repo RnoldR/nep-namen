@@ -1,0 +1,87 @@
+host: 'tinctoris'
+port: '5432'
+db: 'Binnenstad'
+destination: '../results/generated_streets.txt'
+tables:
+- bag_2018_2020
+
+columns:
+- openbareruimte
+
+user: ''
+pw: ''
+
+n: 1000
+
+prefixes:
+- burgemeester
+- burg.
+- wethouder
+- weth.
+- docter
+- doctor
+- eerste
+- tweede
+- derde
+- monseigneur
+- pastoor
+- dominee
+- meester
+- mr.
+- weide
+- wei
+- ridder
+- jonkheer
+- korte
+- lange
+- kromme
+- rechte
+- klein
+- groot
+- prins
+- prinses
+- koningin
+- hertog
+- graaf
+- heer
+- wegje
+- de-
+
+
+suffixes:
+- straatweg
+- straat
+- weg
+- laan
+- dreef
+- laantje
+- steeg
+- markt
+- wal
+- dijk
+- hoven
+- hove
+- hof
+- kamp
+- diep
+- plein
+- plaats
+- plantsoen
+- park
+- dreef
+- veld
+- heem
+- pad
+- akker
+- baan
+- daal
+- ring
+- gaarde
+- gaard
+- singel
+- veld
+- poort
+- eiland
+- haag
+- hage
+- haeg-
